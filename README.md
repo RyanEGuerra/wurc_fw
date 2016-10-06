@@ -12,7 +12,9 @@ This code was initially developed for the Skylark Wireless Wideband UHF Radio Ca
 This code has been tested and is in production with no known bugs at this time, although modification of this code or changing compiler settings may result in stack overflow as a known consequence.
 
 Author: Ryan E. Guerra (ryan@guerra.rocks)
+
 Author: Dr. Narendra Anand
+
 Thanks: Holly Liang
 
 # Texas Instruments Legal Disclaimer & License
