@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?ccsproject version="1.0"?>
+
+<projectOptions>
+<deviceVariant value="Cortex M.LM3S5R36"/>
+<deviceFamily value="TMS470"/>
+<deviceEndianness value="little"/>
+<codegenToolVersion value="5.0.3"/>
+<isElfFormat value="true"/>
+<connection value="common/targetdb/connections/TIXDS2XXUSB_Connection.xml"/>
+<linkerCommandFile value="lm3s5r36.cmd"/>
+<rts value="libc.a"/>
+<templateProperties value="id=com.ti.ccstudio.project.templates.helloWorld,"/>
+<isTargetManual value="true"/>
+</projectOptions>
