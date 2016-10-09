@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+    
+
+
+
+
+<configuration XML_version="1.2" id="Texas Instruments XDS2xx USB Emulator_0">
+        <instance XML_version="1.2" desc="Texas Instruments XDS2xx USB Emulator_0" href="connections/TIXDS2XXUSB_Connection.xml" id="Texas Instruments XDS2xx USB Emulator_0" xml="TIXDS2XXUSB_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Texas Instruments XDS2xx USB Emulator_0">
+            <instance XML_version="1.2" href="drivers/tixds560cs_dap.xml" id="drivers" xml="tixds560cs_dap.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560cortexM.xml" id="drivers" xml="tixds560cortexM.xml" xmlpath="drivers"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="Stellaris LM3S5R36_0" href="devices/lm3s5r36.xml" id="Stellaris LM3S5R36_0" xml="lm3s5r36.xml" xmlpath="devices"/>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>
