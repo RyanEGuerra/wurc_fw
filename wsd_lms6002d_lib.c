@@ -6,15 +6,6 @@
  * and macros to calibrate and set parameters for the LMS6002D. Some day, this will be
  * a standalone library that is platform-independant, but that is not today.
  *
- *   This software is licensed to Rice University where applicable, Texas Instruments
- *   where applicable and should always carry this header description. No warranty is
- *   provided with this code, nor promise of suitability for any given purpose. Do not
- *   blame us if it breaks something.
- *
- *	 All right reserved for the time being.
- *   You may not reuse this code without permission of the authors unless superseded
- *   by previous licensing. Isn't this stuff complicated? We should hire a code lawyer.
- *
  *   THIS SOFTWARE IS PROVIDED "AS IS" AND WITH ALL FAULTS.
  *   NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT
  *   NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
