@@ -931,7 +931,7 @@ Lime_LPFBandwidthTuning(void)
 	// Set LPF bandwidth to an arbitrary value (2.5 MHz in example, 10 MHz for
 	// our planned WARP-like OFDM system). Lime claims the actual BW when
 	// tuning is arbitrary and should hold across all BW values.
-	// 11/12/2013 - we know how trusting Lime works out. Fuck that. It's
+	// 11/12/2013 - we know how trusting Lime works out. Nope. It's
 	// now 20 MHz for our OFDM system.
 	// 02/2014 - Modifying this again to match Lime's flow diagram exactly. We saw this
 	// algorithm choose terrible values in the past...
@@ -2605,8 +2605,8 @@ Lime_SetADCSettings(unsigned long ulMask)
 // DC offset calibration result is achieved when DAC are power on and are
 // set to 0+0*i."
 //
-// M@#%($&FU@#%%$#ERS. SERIOUSLY, LIME?! Could you not have fucking written
-// that into your goddamned calibration module? Why do I have to search
+// SERIOUSLY, LIME?! Could you not have written
+// that into your calibration module? Why do I have to search
 // online community forums full of garbage to find this offhand comment?
 // UGH.
 //
@@ -4456,7 +4456,9 @@ Lime_NewLPFBandwidthTuning(unsigned long ulLPFBandwidthCode)
 }
 
 //*****************************************************************************
-//TODO
+// This was a non-working attempt to turn off everything in the LMS6002D
+// by disabling all internal blocks. Something about it didn't quite work
+// and we didn't spend the time to figure it out. Worked around the issue.
 //*****************************************************************************
 int
 Lime_FuckingNukeEverything(void)
